@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- YITENDRA PUSHKAR COVID-PROJECT -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <title>COVID-19 STATUS IN INDIA</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./resources/img/logo.png" alt="" />
+            <p>COVID-19<br/> STATUS IN INDIA</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="status">
+            <div class="latest-report">
+                <div class="state">
+                    <div class="search-state hide">
+                        <div class="search-box">
+                            <input type="text" id="search-input" placeholder="search-state">
+                        </div>
+                        <div class="state-list">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="total-cases">
+                    <div class="title">Total-cases</div>
+                    <div class="value">0</div>
+                    <div class=" new-value">+0</div>
+
+                </div>
+                <div class="total-confirmed">
+                    <div class="title">Confirmed</div>
+                    <div class="value">0</div>
+                    <div class=" new-value">+0</div>
+
+                </div>
+                <div class="total-recovered">
+                    <div class="title">Recovered</div>
+                    <div class="value">0</div>
+                    <div class=" new-value">+0</div>
+                </div>
+                <div class="total-deaths">
+                    <div class="title">Deaths</div>
+                    <div class="value">0</div>
+                    <div class=" new-value">+0</div>
+                </div>
+            </div>
+            <div class="chart">
+                <canvas id="stacked area chart"></canvas>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="copyright">
+                <p>copyright© 2020 YITENDRA PUSHKAR @cgc</p>
+                <p> <a href="https://github.com/yitendra812"> Developer's github </a><br>
+                    <a href="https://www.linkedin.com/in/yitendra-pushkar-10838b17a/"> linkedin</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="resources/js/app.js"></script>
+    <script src="resources/js/app.js"></script>
+
+
+
+</body>
+
+</html>
